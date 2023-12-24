@@ -20,7 +20,7 @@ namespace DummyProject
         protected void Button1_Click(object sender, EventArgs e)
         {
             int cnt = Convert.ToInt32(TextBox1.Text);
-            cnt += 1;
+            cnt ++;
             TextBox1.Text = cnt.ToString();
         }
     }
