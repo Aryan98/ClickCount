@@ -33,5 +33,14 @@ namespace DummyProject
             }
             ViewState["clicks"] = TextBox1.Text;
         }
+
+        protected void reset(object sender, EventArgs e)
+        {
+            //int cnt = Convert.ToInt32(TextBox1.Text);
+            //cnt ++;
+            //TextBox1.Text = cnt.ToString();
+            ViewState["clicks"] = null;
+            TextBox1.Text = "0";
+        }
     }
 }
