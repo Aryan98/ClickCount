@@ -25,7 +25,7 @@ namespace DummyProject
             
             if(ViewState["clicks"]!=null)
             {
-                TextBox1.Text = Convert.ToString(Convert.ToInt32(ViewState["clicks"]) + 1);
+                TextBox1.Text = Convert.ToString(Convert.ToInt32(ViewState["clicks"]) + 3);
             }
             else
             {
